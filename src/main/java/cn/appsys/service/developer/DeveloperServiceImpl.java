@@ -1,13 +1,12 @@
-package cn.appsys.controller.developer;
+package cn.appsys.service.developer;
 
 import cn.appsys.dao.DevUserMapper;
 import cn.appsys.pojo.DevUser;
 import cn.appsys.pojo.DevUserExample;
-import cn.appsys.service.developer.DeveloperService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @Service
