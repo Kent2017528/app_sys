@@ -6,39 +6,263 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="226606ee-d323-4c85-afd9-0fdd39e91a28" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoServiceImpl.java" afterDir="false" />
+    <list default="true" id="226606ee-d323-4c85-afd9-0fdd39e91a28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appVersion/AppVersionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appVersion/AppVersionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/DevLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/DevLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/DevUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/DevUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DeveloperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/devUser/DevUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DeveloperServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/devUser/DevUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfolist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfolist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/controller/developer/DevLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/appsys/controller/developer/DevLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/controller/developer/DeveloperServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DevUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DevUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/service/developer/DeveloperService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/controller/developer/DevLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/controller/developer/DevLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/controller/developer/DeveloperServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DevUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DevUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/service/developer/DeveloperService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appinfolist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appinfolist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppVersionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppVersionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/dataDictionary/DataDictionaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/dataDictionary/DataDictionaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appInfo/AppinfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appInfo/AppinfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appversionadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appversionadd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/APP_mms.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/controller/developer/DevLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AdPromotionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppCategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppVersionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppVersionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/appsys/dao/AppVersionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/BackendUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/DataDictionaryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/dao/DevUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AdPromotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AdPromotionExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AdPromotionExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AdPromotionExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AdPromotionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppCategoryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppCategoryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppCategoryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppCategoryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppInfoExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppInfoExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppInfoExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppInfoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppVersionExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppVersionExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppVersionExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/AppVersionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/BackendUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/BackendUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/BackendUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/BackendUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/BackendUserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DataDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DataDictionaryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DataDictionaryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DataDictionaryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DataDictionaryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DevUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DevUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DevUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DevUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/pojo/DevUserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/tools/BigDecimalUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/tools/BigDecimalUtil$BigDecimalOprations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/tools/BigDecimalUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/tools/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/appsys/tools/PageSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/403.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/META-INF/APP_mms.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/controller/developer/DevLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AdPromotionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AdPromotionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppCategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppVersionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/AppVersionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/BackendUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/BackendUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/DataDictionaryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/DataDictionaryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/DevUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/dao/DevUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AdPromotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AdPromotionExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AdPromotionExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AdPromotionExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AdPromotionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppCategoryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppCategoryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppCategoryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppCategoryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppInfoExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppInfoExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppInfoExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppInfoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppVersionExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppVersionExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppVersionExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/AppVersionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/BackendUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/BackendUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/BackendUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/BackendUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/BackendUserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DataDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DataDictionaryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DataDictionaryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DataDictionaryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DataDictionaryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DevUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DevUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DevUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DevUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/pojo/DevUserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/tools/BigDecimalUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/tools/BigDecimalUtil$BigDecimalOprations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/tools/BigDecimalUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/tools/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/cn/appsys/tools/PageSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/backend/appcheck.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/backend/applist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/backend/common/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/backend/common/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/backend/common/js.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/backend/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/backendlogin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appinfoadd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appinfolist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appinfomodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appinfoview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appversionadd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/appversionmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/common/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/common/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/common/js.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/developer/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/jsp/devlogin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/aspectjrt-1.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/commons-pool-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/druid-1.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/fastjson-1.2.56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/jsqlparser-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/log4j-api-2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/log4j-core-2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/log4j-web-2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/mybatis-3.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/mybatis-spring-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/pagehelper-5.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-jdbc-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-tx-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/bootstrap-progressbar-3.3.4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/dropzone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/jquery.mCustomScrollbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/jqvmap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/maps/jquery-jvectormap-2.0.3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/css/nprogress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/cropper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/inbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/media.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/prod-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/prod-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/prod-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/prod-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/prod-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/images/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/datepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/fastclick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/jquery.mCustomScrollbar.concat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/moment/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/nprogress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/js/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localcss/appinfoadd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localcss/appinfolist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localcss/applist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/appcheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/appinfoadd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/appinfolist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/appinfomodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/appinfoview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/applist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/appversionadd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/appversionmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/localjs/rollpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/air.net.machinarium.Machinarium.GP-V1.1.1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/air.net.machinarium.Machinarium.GP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.bithack.apparatus-V1.1.1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.bithack.apparatus-V1.1.2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.bithack.apparatus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.3.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.31.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.doodleapps.powdertoy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.google.android.inputmethod.pinyin-V1.1.1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.google.android.inputmethod.pinyin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.katecca.screenofflockdonate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.kleientertainment.doNotStarvePocket.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.lbe.security.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.momocorp.o2jamu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.plexnor.gravityscreenoffpro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.sp.protector.free.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.speedsoftware.rootexplorer-V1.1.1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbmsOrderSystem/statics/uploadfiles/com.speedsoftware.rootexplorer.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,51 +277,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfolist.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="64" column="68" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="68" />
-              <folding>
-                <element signature="e#4576#4582#0#HTML" expanded="true" />
-                <element signature="e#4582#4588#0#HTML" expanded="true" />
-                <element signature="e#4588#4594#0#HTML" expanded="true" />
-                <element signature="e#4594#4600#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="61" column="69" lean-forward="true" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1047#1065#1" expanded="true" />
-                <element signature="e#714#727#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/springmvc-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+            <state relative-caret-position="1161">
+              <caret line="88" column="85" selection-start-line="88" selection-start-column="85" selection-end-line="88" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AdPromotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="108">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AdPromotionExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#4981#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appversionadd.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-567">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +340,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="486">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,34 +350,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfoadd.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="567">
+              <caret line="21" column="110" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="110" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoadd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2916">
+              <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -160,15 +379,23 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>smbms</find>
       <find>ver</find>
       <find>name</find>
       <find>devname</find>
       <find>1</find>
+      <find>order</find>
+      <find>smbms</find>
+      <find>multipart</find>
+      <find>m</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tt" />
+      </map>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--follow-tags" />
@@ -181,7 +408,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resource/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appinfo/dao/AdPromotionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appinfo/controller/developer/DevLoginController.java" />
@@ -194,7 +420,6 @@
         <option value="$PROJECT_DIR$/src/main/resource/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AdPromotionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/dao/DevUserMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/DevLoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/DevUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppInfo.java" />
@@ -206,15 +431,22 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/devUser/DevUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/devUser/DevUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppInfoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfolist.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appVersion/AppVersionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appVersion/AppVersionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppVersion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppVersionMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appversionadd.jsp" />
       </list>
     </option>
   </component>
@@ -242,7 +474,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="smbmsOrderSystem Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="app_mms Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="app_mms Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -259,6 +496,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,6 +618,18 @@
               <item name="APP_mms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="appsys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="developer" type="462c0819:PsiDirectoryNode" />
+              <item name="appInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APP_mms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APP_mms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -403,6 +653,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APP_mms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APP_mms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+              <item name="localjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APP_mms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APP_mms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -423,23 +691,11 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="developer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APP_mms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APP_mms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="developer" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -632,7 +888,8 @@
       <workItem from="1565768341620" duration="5344000" />
       <workItem from="1565774498540" duration="282000" />
       <workItem from="1565774972087" duration="10359000" />
-      <workItem from="1565828872250" duration="17928000" />
+      <workItem from="1565828872250" duration="30995000" />
+      <workItem from="1565870704165" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1565779764063</created>
@@ -648,17 +905,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565790550907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3">
+      <created>1565854141112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565854141112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33913000" />
+    <option name="totallyTimeSpent" value="50355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18701799" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20051414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -668,7 +932,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3001328" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.12881806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -677,8 +941,8 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50064266" side_tool="true" weight="0.12881806" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32934928" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -699,104 +963,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/moment/moment.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/403.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/backend/common/js.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appinfo/dao/AdPromotionMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appinfo/dao/AppCategoryMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/devlogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="40" column="77" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appinfo/dao/DataDictionaryMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AdPromotionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AdPromotion.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/DevUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/AdPromotionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/AdPromotionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/system.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfoview.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2511" />
@@ -804,13 +974,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/common/js.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="84" column="54" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/tools/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -868,6 +1031,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/rollpage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/DataDictionaryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="110" column="7" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/DataDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="83" column="88" lean-forward="true" selection-start-line="83" selection-start-column="88" selection-end-line="83" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/dataDictionary/DataDictionaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/dataDictionary/DataDictionaryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/DevLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoview.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appInfo/AppinfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appVersion/AppVersionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/smbmsOrderSystem/WEB-INF/classes/jdbc.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -895,57 +1165,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/rollpage.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfolist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="198" column="70" selection-start-line="198" selection-start-column="63" selection-end-line="198" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfolist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appVersion/AppVersionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        <state relative-caret-position="269">
+          <caret line="93" column="55" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="55" />
+          <folding>
+            <element signature="e#1713#1752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appInfo/AppinfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/cn/appsys/dao/AppVersionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="-1944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/AppVersionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appinfo/AppinfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="53" column="76" selection-start-line="52" selection-start-column="7" selection-end-line="53" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfoadd.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <caret line="21" column="110" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoadd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/multipart/MultipartResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#450#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/dao/DataDictionaryMapper.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="110" column="7" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/DataDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="47" />
+        <state relative-caret-position="243">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#4981#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AdPromotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AppCategoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -956,96 +1342,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/DevLoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/pojo/AdPromotionExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appversionadd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/common/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="83" column="88" lean-forward="true" selection-start-line="83" selection-start-column="88" selection-end-line="83" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/developer/appinfolist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="64" column="68" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="68" />
-          <folding>
-            <element signature="e#4576#4582#0#HTML" expanded="true" />
-            <element signature="e#4582#4588#0#HTML" expanded="true" />
-            <element signature="e#4588#4594#0#HTML" expanded="true" />
-            <element signature="e#4594#4600#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/DataDictionary/DataDictionaryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/service/developer/appCategory/AppCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/springmvc-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/appsys/controller/developer/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="61" column="69" lean-forward="true" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1047#1065#1" expanded="true" />
-            <element signature="e#714#727#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="1161">
+          <caret line="88" column="85" selection-start-line="88" selection-start-column="85" selection-end-line="88" selection-end-column="85" />
         </state>
       </provider>
     </entry>

@@ -30,6 +30,25 @@ public class AppVersion {
 
     private String apkFileName;
 
+    private String appName;
+    private String publishStatusName;
+
+    public String getPublishStatusName() {
+        return publishStatusName;
+    }
+
+    public void setPublishStatusName(String publishStatusName) {
+        this.publishStatusName = publishStatusName;
+    }
+
+    public String getAppName() {
+        return appName;
+    }
+
+    public void setAppName(String appName) {
+        this.appName = appName;
+    }
+
     public Long getId() {
         return id;
     }

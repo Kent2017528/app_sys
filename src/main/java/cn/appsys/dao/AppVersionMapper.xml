@@ -15,6 +15,8 @@
     <result column="modifyDate" jdbcType="TIMESTAMP" property="modifyDate" />
     <result column="apkLocPath" jdbcType="VARCHAR" property="apkLocPath" />
     <result column="apkFileName" jdbcType="VARCHAR" property="apkFileName" />
+    <result column="appName" jdbcType="VARCHAR" property="appName" />
+    <result column="publishStatusName" jdbcType="VARCHAR" property="publishStatusName" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -75,8 +77,15 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, appId, versionNo, versionInfo, publishStatus, downloadLink, versionSize, createdBy, 
-    creationDate, modifyBy, modifyDate, apkLocPath, apkFileName
+   /* v.id, v.appId, v.versionNo, v.versionInfo, v.publishStatus, v.downloadLink, v.versionSize, v.createdBy,
+    v.creationDate, v.modifyBy, v.modifyDate, v.apkLocPath, v.apkFileName*/
+
+    v.id, v.appId, v.versionNo, v.versionInfo, v.publishStatus, v.downloadLink, v.versionSize, v.createdBy,
+    v.creationDate, v.modifyBy, v.modifyDate, v.apkLocPath, v.apkFileName,
+    (SELECT i.softwareName FROM  app_info i WHERE v.appid=i.id) AS appName,
+    (SELECT d.`valueName` FROM  data_dictionary d WHERE v.publishStatus=d.`valueId`
+     AND d.`typeCode`='PUBLISH_STATUS' ) AS publishStatusName
+
   </sql>
   <select id="selectByExample" parameterType="cn.appsys.pojo.AppVersionExample" resultMap="BaseResultMap">
     select
@@ -85,7 +94,7 @@
     </if>
     'true' as QUERYID,
     <include refid="Base_Column_List" />
-    from app_version
+    from app_version  v
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>

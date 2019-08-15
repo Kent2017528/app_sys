@@ -1,12 +1,10 @@
 package cn.appsys.controller.developer;
 
-import cn.appsys.pojo.AppCategory;
-import cn.appsys.pojo.AppInfo;
-import cn.appsys.pojo.DataDictionary;
-import cn.appsys.pojo.DevUser;
-import cn.appsys.service.developer.DataDictionary.DataDictionaryService;
+import cn.appsys.pojo.*;
+import cn.appsys.service.developer.appVersion.AppVersionService;
+import cn.appsys.service.developer.dataDictionary.DataDictionaryService;
 import cn.appsys.service.developer.appCategory.AppCategoryService;
-import cn.appsys.service.developer.appinfo.AppinfoService;
+import cn.appsys.service.developer.appInfo.AppinfoService;
 import cn.appsys.tools.Constants;
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
@@ -34,6 +32,8 @@ public class AppController {
     DataDictionaryService dataDictionaryService;
     @Autowired
     AppCategoryService appCategoryService;
+    @Autowired
+    AppVersionService appVersionService;
     @Value("${currentPageNo}")
     private String currentPageNo;
     @Value("${pageSize}")
@@ -42,15 +42,22 @@ public class AppController {
     @RequestMapping("/list")
     public String appList(@RequestParam(value = "pageIndex",required = false) String currentPageNo,
                           @RequestParam(value = "pageSize",required = false) String pageSize,
+                          @RequestParam(value = "querySoftwareName",required = false) String querySoftwareName,
+                          @RequestParam(value = "queryStatus",required = false) Long queryStatus,
+                          @RequestParam(value = "queryFlatformId",required = false) Long queryFlatformId,
+                          @RequestParam(value = "queryCategoryLevel1",required = false) Long queryCategoryLevel1,
+                          @RequestParam(value = "queryCategoryLevel2",required = false) Long queryCategoryLevel2,
+                          @RequestParam(value = "queryCategoryLevel3",required = false) Long queryCategoryLevel3,
+
                           HttpSession session, Model model){
         this.currentPageNo=(currentPageNo==null||currentPageNo=="")?this.currentPageNo:currentPageNo;
         this.pageSize=(pageSize==null||pageSize=="")?this.pageSize:pageSize;
 
         DevUser devUser = (DevUser) session.getAttribute(Constants.DEV_USER_SESSION);
         Long id = devUser.getId();
-        PageInfo<AppInfo> pageInfo = appinfoService.getAppList(id,
-                Integer.parseInt(this.currentPageNo),
-                Integer.parseInt(this.pageSize));
+        PageInfo<AppInfo> pageInfo = appinfoService.getAppList(id, querySoftwareName,
+                 queryStatus,queryFlatformId, queryCategoryLevel1, queryCategoryLevel2,
+                 queryCategoryLevel3, Integer.parseInt(this.currentPageNo), Integer.parseInt(this.pageSize));
 
         List<DataDictionary> statusList = dataDictionaryService.getStatusList();
         List<DataDictionary> flatFormList = dataDictionaryService.getFlatFormList();
@@ -60,6 +67,14 @@ public class AppController {
         model.addAttribute("statusList", statusList);
         model.addAttribute("flatFormList", flatFormList);
         model.addAttribute("categoryLevel1List", categoryLevel1List);
+        //回显
+        model.addAttribute("querySoftwareName", querySoftwareName);
+        model.addAttribute("queryStatus", queryStatus);
+        model.addAttribute("queryFlatformId", queryFlatformId);
+        model.addAttribute("queryCategoryLevel1", queryCategoryLevel1);
+        model.addAttribute("queryCategoryLevel2", queryCategoryLevel2);
+        model.addAttribute("queryCategoryLevel3", queryCategoryLevel3);
+
 
         return "developer/appinfolist";
     }
@@ -73,5 +88,14 @@ public class AppController {
         logger.debug(jsonString);
         return jsonString;
 
+    }
+
+    @RequestMapping("/appversionadd")
+    public String appVersionAdd(@RequestParam("id")Long id,Model model){
+
+        List<AppVersion> appVersionList = appVersionService.getAppVersionByAppId(id);
+        model.addAttribute("appVersionList", appVersionList);
+
+        return "developer/appversionadd";
     }
 }
