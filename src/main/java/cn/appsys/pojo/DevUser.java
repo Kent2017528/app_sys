@@ -23,6 +23,11 @@ public class DevUser {
 
     private Date modifyDate;
 
+
+
+
+
+
     public Long getId() {
         return id;
     }

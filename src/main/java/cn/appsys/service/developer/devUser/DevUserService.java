@@ -1,9 +1,14 @@
-package cn.appsys.service.developer;
+package cn.appsys.service.developer.devUser;
+
 
 
 import cn.appsys.pojo.DevUser;
 
-public interface DeveloperService {
+
+
+public interface DevUserService {
 
    public DevUser doLogin(String devCode,String devPassword);
+
+
 }

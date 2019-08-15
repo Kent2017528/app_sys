@@ -1,7 +1,7 @@
 package cn.appsys.controller.developer;
 
 import cn.appsys.pojo.DevUser;
-import cn.appsys.service.developer.DeveloperService;
+import cn.appsys.service.developer.devUser.DevUserService;
 import cn.appsys.tools.Constants;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -20,7 +20,7 @@ public class DevLoginController {
 
     private Log logger = LogFactory.getLog(DevLoginController.class);
     @Autowired
-    private DeveloperService developerService;
+    private DevUserService developerService;
 
     @RequestMapping(value="/login")
     public String login(){

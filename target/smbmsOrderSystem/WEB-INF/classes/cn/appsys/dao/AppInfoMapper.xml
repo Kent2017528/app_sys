@@ -26,6 +26,17 @@
     <result column="logoPicPath" jdbcType="VARCHAR" property="logoPicPath" />
     <result column="logoLocPath" jdbcType="VARCHAR" property="logoLocPath" />
     <result column="versionId" jdbcType="BIGINT" property="versionId" />
+
+    <result column="statusName" jdbcType="VARCHAR" property="statusName" />
+    <result column="flatformName" jdbcType="VARCHAR" property="flatformName" />
+    <result column="categoryLevel1Name" jdbcType="VARCHAR" property="categoryLevel1Name" />
+    <result column="categoryLevel2Name" jdbcType="VARCHAR" property="categoryLevel2Name" />
+    <result column="categoryLevel3Name" jdbcType="VARCHAR" property="categoryLevel3Name" />
+    <result column="versionNo" jdbcType="VARCHAR" property="versionNo" />
+
+
+
+
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -86,10 +97,26 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, softwareName, APKName, supportROM, interfaceLanguage, softwareSize, updateDate, 
-    devId, appInfo, status, onSaleDate, offSaleDate, flatformId, categoryLevel3, downloads, 
-    createdBy, creationDate, modifyBy, modifyDate, categoryLevel1, categoryLevel2, logoPicPath, 
-    logoLocPath, versionId
+  /*  id, softwareName, APKName, supportROM, interfaceLanguage, softwareSize, updateDate,
+    devId, appInfo, status, onSaleDate, offSaleDate, flatformId, categoryLevel3, downloads,
+    createdBy, creationDate, modifyBy, modifyDate, categoryLevel1, categoryLevel2, logoPicPath,
+    logoLocPath, versionId*/
+
+    i.id, i.softwareName, i.APKName, i.supportROM, i.interfaceLanguage, i.softwareSize,
+ i.updateDate,
+ i.devId, i.appInfo, i.`status`, i.onSaleDate, i.offSaleDate, i.flatformId, i.categoryLevel3,
+ i.downloads,
+ i.createdBy, i.creationDate,i.modifyBy, i.modifyDate, i.categoryLevel1, i.categoryLevel2,
+ i.logoPicPath,
+ i.logoLocPath, i.versionId ,
+(SELECT valueName FROM `data_dictionary` d  WHERE
+ d.valueId=i.status AND d.typeCode='APP_STATUS' ) AS statusName,
+ (SELECT valueName FROM `data_dictionary` d WHERE
+  i.flatformId=d.valueId AND d.typeCode='APP_FLATFORM') AS flatformName,
+  (SELECT categoryName FROM  app_category c WHERE i.`categoryLevel1`=c.id) AS categoryLevel1Name,
+  (SELECT categoryName FROM app_category c WHERE i.`categoryLevel2`=c.id) AS categoryLevel2Name,
+  (SELECT categoryName FROM app_category c WHERE i.`categoryLevel3`=c.id) AS categoryLevel3Name,
+ (SELECT versionNo FROM app_version v WHERE i.`versionid`=v.id) AS versionNo
   </sql>
   <select id="selectByExample" parameterType="cn.appsys.pojo.AppInfoExample" resultMap="BaseResultMap">
     select
@@ -98,7 +125,7 @@
     </if>
     'true' as QUERYID,
     <include refid="Base_Column_List" />
-    from app_info
+    from app_info i
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>

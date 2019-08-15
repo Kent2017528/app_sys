@@ -28,4 +28,6 @@ public interface AppInfoMapper {
     int updateByPrimaryKeySelective(AppInfo record);
 
     int updateByPrimaryKey(AppInfo record);
+
+    void selectByExample();
 }

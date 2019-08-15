@@ -1,18 +1,24 @@
-package cn.appsys.service.developer;
+package cn.appsys.service.developer.devUser;
 
 import cn.appsys.dao.DevUserMapper;
+import cn.appsys.pojo.AppInfo;
+import cn.appsys.pojo.AppInfoExample;
 import cn.appsys.pojo.DevUser;
 import cn.appsys.pojo.DevUserExample;
 
+
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class DeveloperServiceImpl implements DeveloperService {
+public class DevUserServiceImpl implements DevUserService {
     @Autowired
     private DevUserMapper devUserMapper;
+
+
 
     @Override
     public DevUser doLogin(String devCode, String devPassword) {
@@ -27,4 +33,7 @@ public class DeveloperServiceImpl implements DeveloperService {
         }
         return null;
     }
+
+
+
 }
